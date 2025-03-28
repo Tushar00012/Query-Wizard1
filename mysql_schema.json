@@ -1,0 +1,258 @@
+{
+    "csstudents": {
+        "FirstName": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "LastName": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "Email": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "customers": {
+        "CUSTID": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "CUSTOMERNAME": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "purchase": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "employees": {
+        "id": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "age": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "department": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "glbajaj": {
+        "rollno": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "branch": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "attendance": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "branch_id": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "glbajajs": {
+        "rollno": {
+            "type": "varchar(255)",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "branch": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "attendance": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "branch_id": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "orders": {
+        "ORDERID": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "CUSTOMERID": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "ORDERDATE": {
+            "type": "date",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "ORDERAMOUNT": {
+            "type": "double",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "practice": {
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "marks": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "shubh": {
+        "student": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "rollno": {
+            "type": "varchar(255)",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "course": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "society": {
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "code": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "student": {
+        "StudentID": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        },
+        "FirstName": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "LastName": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "DOB": {
+            "type": "date",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "EMAIL": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "MAJOR": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "student2": {
+        "StudentID": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "MAJOR": {
+            "type": "varchar(100)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "major_code": {
+            "type": "varchar(255)",
+            "primary_key": true,
+            "foreign_key": null
+        }
+    },
+    "tushar": {
+        "Student_Name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "class": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "college": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "worlds": {
+        "country_name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "cap": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "country_id": {
+            "type": "int",
+            "primary_key": true,
+            "foreign_key": null
+        }
+    }
+}
